@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+.border {
+  padding: 15px;
+  border: 1.5px solid transparent;
+  border-radius: 0;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.border:hover {
+  border-color: #fff;
+}
+
+.navbar {
+    background-color: #54f0b4;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .nav-logo {
+    margin-right: 20px;
+  }
+  
+  .logo {
+    padding-left: 5px;
+    width: 150px;
+    height: 80px;
+    object-fit: cover;
+    padding-top: 8px;
+    margin: -5px;
+    border-radius: 0;
+    border: 1.5px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .logo:hover {
+    border-color: #ffffff;
+  }
+
+  /*---------------------------------------------------------------------------------*/
+
+.nav-address{
+    height: 65px ;
+    width: 105px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 0;
+    border: 1.5px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.nav-address:hover{
+    border-color: #fff ;
+}
+
+.b1{
+    color: #000000;
+    font-size: 0.85rem ;
+    margin-left:15px ;
+}
+
+.b2{
+    color: #000000;
+    font-size: 1.2rem ;
+    margin-left: 3px
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.nav-search{
+    display: flex; 
+    justify-content: space-evenly;
+    background-color: chartreuse;
+    width: 700px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+
+.nav-search:hover{
+  border: 2px solid #4362CF;
+}
+
+.search-select{
+    background-color: aliceblue;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px ;
+    border: none;
+    width: 45px;
+    text-align: center ;
+}
+
+.search-input{
+    padding-left: 10px;
+    width: 100%;
+    font-size: 1rem;
+    border: none ;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.2rem ;
+}
+
+/*----------------------------------------------------------------------------------------*/
+
+.flag-icon{
+    font-family: 'flag-icon';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+.search-language{
+    border: none;
+    background: transparent;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+.b3{
+  color: #000000;
+  font-size: 0.85rem ;
+  font-weight: 300;
+}
+
+.b4{
+  color: #000000;
+  font-size: 1.2rem ;
+  font-weight: 500;
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+.nav-cart {
+  font-size: 1rem;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+}
+
+.nav-cart i{
+  font-size: 35px;
+  padding: 5px;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+.border1{
+  padding: 5px;
+  border: 2px solid transparent;
+  border-radius: 0;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.border1:hover{
+  border-color: #4362CF ;
+}
+
+.panel{
+  height: 40px;
+  background-color:#51DAB8 ;
+  display: flex;
+  color: #000000;
+  align-items: center;
+  /*justify-content: space-evenly;*/
+}
+
+.panel-all{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.panel-options p {
+   display: inline;
+   margin-left: 15px;
+   padding: 5px;
+   border: 2px solid transparent;
+   border-radius: 0;
+   transition: border-color 0.3s ease-in-out;
+}
+.panel-options p:hover{
+  border-color: #4362CF;
+}
+
+.panel-options{
+  font-size: 1rem;
+  width: 80%;
+}
+
+.panel-deals{
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left:auto ;
+  margin-right: 35px;
+}
+
+/*---------------------------------------------------------HERO SECTION---------------------------*/
+
+.hero-section{
+  background-image: url(images/cartt.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  height: 520px ;
+  width: 100%;
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.slides {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.5); 
+  height: 400px; 
+  width: 600px; 
+  margin-top: 60px; 
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.displaySlide {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hideSlide {
+  opacity: 0;
+  visibility: hidden;
+}
+/*
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1;
+}
+*/
+.slider button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 10rem;
+  background-color: #54F0B448;
+  color: #4886C8;
+  border: none;
+  cursor: pointer;
+}
+
+.prev{
+  left: 10px;
+}
+.next{
+  right: 10px;
+}*/
+
+
+/*--------------------------------------------------------SHOP SECTION IN HERO----------------------*/
+
+.shop1{
+  background-color:#ffffff ;
+}
+
+.shop-section{
+  background-color:#4886C8 ;
+  padding-top: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.box{
+  margin-bottom: 20px;
+  height: 350px;
+  width: 23%;
+  background-color: #fff;
+  padding: 25px 0px 20px;
+} 
+
+.box-img {
+  height: 200px;
+  width: 300px;
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem ;
+  object-fit: cover;
+}
+
+.box-content{
+  margin-left:1rem;
+  margin-right: 1rem;
+}
+
+.box-content p{
+  color:#3B1BDC;
+  font-size: 1.5rem;
+}
+
+/*--------------------------------------------------------SHOPPING----------------------*/
+
+.shopping{
+  padding-top: 20px;
+  display: flex;
+  background-color: #50CDBB;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.plants h2{
+  font-size: 2.5rem;
+}
+
+.cube{
+  margin-bottom: 20px;
+  height: 680px;
+  width: 23%;
+  background-color: #ffffff;
+  padding: 25px 0px 20px;
+}
+
+.plants{
+  margin-left:1rem;
+  margin-right: 1rem;
+}
+
+.plants-img {
+  height: 250px;
+  width: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem ;
+  object-fit:cover;
+  position: relative;
+  
+}
+
+.plants-img p1{
+  
+  font-size: 1.5rem;
+  position: static;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);;
+}
+
+.plants-content{
+  margin-left:1rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.plants p{
+  color:#3B1BDC;
+  font-size: 1.5rem;
+}
+
+/*-----------------------------------------------------------------footer1--------------------------*/
+
+footer{
+  margin-top: 15px;
+}
+
+.foot-panel1{
+  background-color: #54f0b4;
+  color: #000000;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+a{
+  text-decoration:none;
+}
+
+/*-----------------------------------------------------------------footer2--------------------------*/
+
+.foot-panel2{
+  background-color: #51DAB8 ;
+  color: #000000;
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.foot-panel2 p{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+ul{
+  margin-top: 20px;
+}
+
+ul a{
+  display: block;
+  font-size: 1rem;
+  margin-top: 10px ;
+}
+
+/*----------------------------------------------------------------logo footer-----------------------*/
+
+.footer-logo{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #51DAB8 ;
+  border-top: 0.5px solid white;
+}
+
+.logotop{
+  height: 80px;
+  width: 100px;
+  background-image: url("images/logoblacktransparent.png");
+  background-position: center;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  border: 1.5px solid transparent;
+  border-radius: 0;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.logotop:hover{
+  border-color: #ffffff;
+}
+
+/*----------------------------------------------------------------panel-3-----------------------*/
+
+.foot-panel3{
+  height: 80px;
+  background-color: #4CA9C1;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.pages{
+  padding-top: 20px;
+  padding-left: 400px;
+  padding-right: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.copyright{
+  padding-top: 5px;
+}

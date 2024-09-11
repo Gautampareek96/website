@@ -1,0 +1,257 @@
+<html>
+    <head>
+        <title>ShopQuick</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <!-------------------------------------------------------LOGO-------------------------------------------------->           
+                <a href="index.html"><div class="nav-logo ">
+                    <img src="images/logoblacktransparent.png" alt="Logo" class="logo">
+                </div></a>
+
+                <!-------------------------------------------------------ADDRESS-------------------------------------------------->
+                <div class="nav-address">
+                    <p class="b1">Deliver to</p>
+                    <div class="add-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="b2">India</p>
+                    </div>   
+                </div>
+
+                <!------------------------------------------------------SEARCH BAR-------------------------------------------------->
+                <div class="nav-search">
+                    <select class="search-select">
+                        <option>All</option>
+                    </select>
+                    <input placeholder="Search ShopQuick" class="search-input ">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+
+                <!-------------------------------------------------------LANGUAGE-------------------------------------------------->
+                <div class="language border">
+                    <span class="flag-icon flag-icon-in"></span>
+                    <select class="search-language">
+                        <option>EN</option>
+                    </select>
+                </div>
+
+                <!-------------------------------------------------------SIGN IN---------------------------------------------------->
+                <div class="nav-signin border">
+                    <p class="b3">HelLo, Sign In</p>
+                    <p class="b4">Accounts & Lists</p>
+                </div>
+
+                <!--------------------------------------------------------ORDERS---------------------------------------------------->
+                <div class="nav-orders border">
+                    <p class="b3">Returns</p>
+                    <p class="b4">& Orders</p>
+                </div>
+
+                <!--------------------------------------------------------CART------------------------------------------------------->
+                <div class="nav-cart border">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    ITEMS
+                    <br>
+                    CART
+                </div>
+            </div>
+
+        <!------------------------------------------------------------------------------------------------------------------------------------------------------->
+            <div class="panel ">
+                <!---------------------------------------------------------PANEL------------------------------------------------------>
+                <div class="panel-all border1">
+                    <i class="fa-solid fa-bars"></i>
+                    All
+                </div>
+                <div class="panel-options ">
+                    <p >Today's Deals</p>
+                    <p >Fresh</p>
+                    <p>Sell</p>
+                    <p>Fashion</p>
+                    <p>Gift Ideas</p>
+                </div>
+                <div class="panel-deals border1">
+                    Festive deals 
+                </div>
+            </div>
+            </div>
+        </header>
+    <!---------------------------------------------------------------------HERO SECTION---------------------------------------------------------------------------->
+        
+    <div class="hero-section">
+        
+            <div class="slider">
+                <div class="slides">
+                    <img class="slide" src="image1.png" alt="Image 1">
+                    <img class="slide" src="image2.png" alt="Image 2">
+                    <img class="slide" src="image3.png" alt="Image 3">
+                    <img class="slide" src="image4.png" alt="Image 4">
+                </div>
+                <button class="prev" onclick="prevSlide()">&#10094</button>
+                <button class="next" onclick="nextSlide()">&#10095</button>
+            </div>
+        
+        
+        
+        <!--<div class="slider">
+            <div class="slides">
+                <img class="slide" src="image1.png" alt="Image 1">
+                <img class="slide" src="image2.png" alt="Image 2">
+                <img class="slide" src="image3.png" alt="Image 3">
+                <img class="slide" src="image4.png" alt="Image 4">
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094</button>
+            <button class="next" onclick="nextSlide()">&#10095</button>
+        </div>-->
+    </div>    
+
+    <script src="main.js"></script>
+        <!-----------------------------------------------------------------SHOP SECTION------------------------------------------------->
+        <div class="shop1">
+            <div class="shop-section">
+                <div class="box1 box">
+                    <div class="box-content">
+                        <h2>Fruits & Vegetables</h2>
+                        <div class="box-img" style="background-image: url(images/fruit&vegetables.png);"></div>
+                        <p>See more</p>
+                    </div>
+                </div>
+                <div class="box2 box">
+                    <div class="box-content">
+                        <h2>Electronics</h2>
+                        <div class="box-img" style="background-image: url(images/electronics.png);"></div>
+                        <p>See more</p>
+                    </div>
+                </div>
+                <div class="box3 box">
+                    <div class="box-content">
+                        <h2>Furniture</h2>
+                        <div class="box-img" style="background-image: url(images/furniture1.png);"></div>
+                        <p>See more</p>
+                    </div>
+                </div>
+                <div class="box4 box">
+                    <div class="box-content">
+                        <h2>Clothes</h2>
+                        <div class="box-img" style="background-image: url(images/clothes.png);"></div>
+                        <p>See more</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shopping">
+            <div class="cube1 cube">
+                <div class="plants">
+                    <h2>Plants</h2> 
+                    <div class="plants-content">               
+                        <div class="plants-img" style="background-image: url(images/1.png);"><p1>Cactus</p1></div>
+                        <div class="plants-img" style="background-image: url(images/2.png);"><p1>Aloe Veera</p1></div>
+                        <div class="plants-img" style="background-image: url(images/3.png);"><p1>Flowers</p1></div>
+                        <div class="plants-img" style="background-image: url(images/4.png);"><p1>Bush</p1></div>
+                    </div>
+                    <p>See more</p>
+                </div>
+            </div>
+            <div class="cube2 cube"><div class="plants">
+                <h2>Pulses</h2> 
+                <div class="plants-content">               
+                    <div class="plants-img" style="background-image: url(images/dal1.png);"><p1>Chana-Dal</p1></div>
+                    <div class="plants-img" style="background-image: url(images/dal2.png);"><p1>Moong-Dal</p1></div>
+                    <div class="plants-img" style="background-image: url(images/dal3.png);"><p1>Chana</p1></div>
+                    <div class="plants-img" style="background-image: url(images/dal4.png);"><p1>Masoor-Dal</p1></div>
+                </div>
+                <p>See more</p>
+            </div></div>
+            <div class="cube3 cube"><div class="plants">
+                <h2>Spices</h2> 
+                <div class="plants-content">               
+                    <div class="plants-img" style="background-image: url(images/spice1.png);"><p1>Black-Pepper</p1></div>
+                    <div class="plants-img" style="background-image: url(images/spice2.png);"><p1>Turmeric-powder</p1></div>
+                    <div class="plants-img" style="background-image: url(images/spice3.png);"><p1>Coriander-Powder</p1></div>
+                    <div class="plants-img" style="background-image: url(images/spice4.png);"><p1>Red Chilli Powder</p1></div>
+                </div>
+                <p>See more</p>
+            </div></div>
+            <div class="cube4 cube"><div class="plants">
+                <h2>Shoes</h2> 
+                <div class="plants-content">               
+                    <div class="plants-img" style="background-image: url(images/shoe1.png);"><p1>Sports</p1></div>
+                    <div class="plants-img" style="background-image: url(images/shoe2.png);"><p1>Boots</p1></div>
+                    <div class="plants-img" style="background-image: url(images/shoe3.png);"><p1>Formals</p1></div>
+                    <div class="plants-img" style="background-image: url(images/shoe4.png);"><p1>Casuals</p1></div>
+                </div>
+                <p>See more</p>
+            </div></div>
+        </div>
+
+        <!-----------------------------------------------------------------FOOTER SECTION--------------------------------------------------------------------------------------------->
+
+        <footer>
+            <a href="index.html">
+                <div class="foot-panel1" >
+                    Back to Top
+                </div> 
+            </a>
+
+            <div class="foot-panel2">
+                <ul>
+                    <p>Get to Know Us</p>
+                    <a>Careers</a>
+                    <a>Blog</a>
+                    <a>About ShopQuick</a>
+                    <a>Investor Relations</a>
+                    <a>ShopQuick Devices</a>
+                    <a>ShopQuick Science</a>
+                </ul>
+                <ul>
+                    <p>Connect with Us</p>
+                    <a>Facebook</a>
+                    <a>Twitter</a>
+                    <a>Instagram</a>
+                </ul>
+                <ul>
+                    <p>Make Money with Us</p>
+                    <a>Sell on ShopQuick</a>
+                    <a>Sell under ShopQuick Accelerator</a>
+                    <a>Protect and Build Your Brand</a>    
+                    <a>ShopQuick Global Selling</a>    
+                    <a>Supply to ShopQuick</a>
+                    <a>Become an Affiliate</a>
+                    <a>Fulfilment by ShopQuick</a>
+                    <a>Advertise Your Products</a>
+                    <a>ShopQuick Pay on Merchants</a>
+                </ul>
+                <ul>
+                    <p>Let Us Help You</p>
+                    <a>Your Account</a>
+                    <a>Returns Centre</a>
+                    <a>Recalls and Product Safety Alerts</a>
+                    <a>100% Purchase Protection</a>
+                    <a>ShopQuick App Download</a>
+                    <a>Help</a>
+                </ul>
+            </div>
+
+                <a href="index.html">
+                <div class="footer-logo"><div class="logotop"></div></div>
+                </a> 
+            
+            <div class="foot-panel3">
+                <div class="pages">
+                    <a>Conditions of Use    </a>
+                    <a>    Privacy Notice    </a>
+                    <a>    Your Ads Privacy Choices</a>
+                </div>
+                <div class="copyright">
+                    © 2024-2024, ShopQuick.com, Inc. or its affiliates
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
